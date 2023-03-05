@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=1320">
     <title>SSDAM_HOME</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery-latest.js"></script>
     <script src="js/script.js"></script>
     <script src="js/jquery-3.6.2.min.js"></script>
@@ -337,6 +338,13 @@
             <div class="btu section2_btu">
                 <a href="javascript:return false;"><b>상담신청</b></a>
             </div>
+                <script>
+        $(function(){
+            $('.section2_btu').mouseup(function(){
+                 alert("신청이 완료 되었습니다.")
+            });
+        });
+    </script>
             <!--right_E-->
         </div>
     </div>
